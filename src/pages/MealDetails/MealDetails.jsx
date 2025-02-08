@@ -79,13 +79,13 @@ export default function MealDetails() {
                       <i className="fa-brands fa-youtube"> youtube</i>
                     </a>
                   </li>
-                  <li className="bg-secondary  text-white py-2 px-4 rounded-lg ">
+                  <li className="bg-emerald-500 text-white py-2 px-4 rounded-lg ">
                     <a
                       target="_blank"
                       href={meal.strSource}
                       className="flex gap-2 justify-center items-center"
                     >
-                      <i className="fa-regular fa-globe"> source</i>
+                      <i className="fa-solid fa-globe"> source</i>
                     </a>
                   </li>
                 </ul>

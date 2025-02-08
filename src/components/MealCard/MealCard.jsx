@@ -19,7 +19,7 @@ export default function MealCard({ mealData }) {
             {mealData.strArea}
           </h5>
         )}
-        <button className="text-white bg-gradient-to-r mt-4 bg-secondary hover:bg-emerald-600 font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 px-8 py-2 rounded-full">
+        <button className="text-white bg-gradient-to-r mt-4 bg-emerald-500 hover:bg-emerald-600 font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 px-8 py-2 rounded-full">
           <Link to={`/mealdetails/${mealData.idMeal}`}> View Recipe</Link>
         </button>
       </div>
